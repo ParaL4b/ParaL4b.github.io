@@ -1,0 +1,96 @@
+@import "https://cdn.jsdelivr.net/npm/bulma@1.0.0/css/bulma.min.css";
+
+html{
+    scroll-behavior: smooth;
+}
+
+:root {
+    --color-contenedor-enfasis: #6b0015;
+    --color-texto-enfasis: #ff7062;
+}
+
+.separador-parrafos {
+    padding-bottom: 15px;
+}
+
+.separador-lista {
+    padding-bottom: 10px;
+}
+
+body {
+    background-color: #000000;
+    color: #d3d3d3;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #b22222;
+}
+h1{
+    font-size: 20%;
+}
+
+a {
+    color: #b22222;
+}
+
+.container {
+    padding: 1rem;
+}
+
+.hero {
+    background-color: #121212;
+}
+
+.hero .title {
+    color: #b22222;
+}
+
+.hero .subtitle {
+    color: #d3d3d3;
+}
+
+.section {
+    background-color: #121212;
+    padding: 3rem 1.5rem;
+}
+
+.section .title {
+    color: #b22222;
+}
+
+.section .subtitle {
+    color: #d3d3d3;
+}
+
+.card {
+    background-color: #1c1c1c;
+    color: #d3d3d3;
+    border: 1px solid #b22222;
+}
+
+.card .card-content .title {
+    color: #b22222;
+}
+
+@media screen and (max-width: 768px) {
+    .columns {
+        flex-direction: column;
+    }
+    
+    .column {
+        margin-bottom: 1rem;
+    }
+}
+
+.has-text-justified {
+    text-align: justify;
+}
+strong{
+    color: #919191;
+}
+#home{
+    background: url(../img/fondoStrong.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
